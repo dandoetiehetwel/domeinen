@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('wallpaper.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  /* Set the font-size to 25 pixels */
+  font-size: 40px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg">
+  <div class="middle">
+    <h1>Welkom!</h1>
+    We zagen dat je jouw bedrijf had geregistreerd, dus we hebben jouw domeinnaam alvast even voor je veilig gesteld.
+    <br><br>
+    Het zou immers niet zo tof zijn als iemand er vreemde dingen op zou zetten 🙂
+    <h2>Dit domein is te koop voor €200,-</h2>
+    <h3 href="mailto:domeinen@dandoetiehetwel.nl">Interesse? Mail naar domeinen@dandoetiehetwel.nl</h3>
+  </div>
+</div>
+
+</body>
+</html>
